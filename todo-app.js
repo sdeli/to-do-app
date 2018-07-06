@@ -9,6 +9,6 @@ app.set('view engine', 'ejs');
 // setupt serving of static files
 app.use('/assets',express.static('assets'));
 
-app.listen(3000);
+app.listen(80);
 // fire cotnrollers with passing thisexpressframework
 toDoController(app);
